@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">@drawable/container_components</item>
+    </style>
+
+    <style name="edit_texte">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">45dp</item>
+        <item name="android:layout_marginRight">45dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:maxLength">25</item>
+    </style>
+
+    <style name="Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="Mock_draft">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Mock_draft_status">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tank Ball</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Criar Usuário</string>
+    <string name="titlie_cadastro">Cadastre-se</string>
+</resources>

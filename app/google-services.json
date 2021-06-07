@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "446459697206",
+    "project_id": "tank-ball-81825",
+    "storage_bucket": "tank-ball-81825.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446459697206:android:342153c9bd4e740485e097",
+        "android_client_info": {
+          "package_name": "com.example.tankball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446459697206-61j7vabnieq42g5ogf3110thje0rka48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpEIn1W7UHEClKw4j6bmkE9Loe2cU6YCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446459697206-61j7vabnieq42g5ogf3110thje0rka48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
