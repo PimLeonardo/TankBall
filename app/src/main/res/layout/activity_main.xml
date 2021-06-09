@@ -22,6 +22,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/sair"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_sair"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toEndOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/mock_draft_recycle"
             android:layout_width="0dp"

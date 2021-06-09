@@ -47,7 +47,7 @@
         android:id="@+id/text_nome_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Leonardo Pimentel Oliveira"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -70,7 +70,7 @@
         android:id="@+id/text_email_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="leopime@gmail.com"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -80,6 +80,7 @@
         app:layout_constraintTop_toBottomOf="@id/text_nome_user" />
     
     <Button
+        android:id="@+id/bt_sair"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sair"
@@ -89,8 +90,10 @@
         android:backgroundTint="@color/black"
         android:padding="20dp"
         android:layout_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_email_user"
-        />
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
