@@ -1,9 +1,12 @@
 package com.example.tankball.model;
 
-public class Draft {
-    private String nome, posicao, time, idade, pontos, rebotes, assistencias, blocks, roubos, peso, altura, nba;
+import java.io.Serializable;
 
-    public Draft(String nome, String posicao, String time, String idade, String pontos, String rebotes, String assistencias, String blocks, String roubos, String peso, String altura, String nba){
+public class Draft implements Serializable {
+
+    private String nome, posicao, time, idade, pontos, rebotes, assistencias, blocks, roubos, peso, altura, nba, foto, resumo, video;
+
+    public Draft(String nome, String posicao, String time, String idade, String pontos, String rebotes, String assistencias, String blocks, String roubos, String peso, String altura, String nba, String foto, String resumo, String video){
         this.nome = nome;
         this.posicao = posicao;
         this.time = time;
@@ -16,6 +19,9 @@ public class Draft {
         this.peso = peso;
         this.altura = altura;
         this.nba = nba;
+        this.foto = foto;
+        this.resumo = resumo;
+        this.video = video;
     }
 
     public String getNome() {
@@ -112,5 +118,29 @@ public class Draft {
 
     public void setNba(String nba) {
         this.nba = nba;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
+    public String getResumo() {
+        return resumo;
+    }
+
+    public void setResumo(String resumo) {
+        this.resumo = resumo;
+    }
+
+    public String getVideo() {
+        return video;
+    }
+
+    public void setVideo(String video) {
+        this.video = video;
     }
 }

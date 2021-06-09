@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.PlayerPerfil">
+
+    <ImageView
+        android:id="@+id/foto_jogador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="8dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/resumo"
+        tools:text="Cunningham é um guarda / atacante grande, forte e físico que tem o estrelato estampado nele. Ele pode pontuar em todos os três níveis, inclusive no poste, onde tem o tamanho e a força para poder por meio do contato. Ele tem a visão da quadra para ser um distribuidor de elite e seu QI geral no basquete está fora das paradas."
+        app:layout_constraintTop_toBottomOf="@+id/foto_jogador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        style="@style/Mock_draft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resumo"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        app:videoId=""
+        app:autoPlay="false"
+        app:showFullScreenButton="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
