@@ -83,5 +83,4 @@ public class DraftAdapter extends RecyclerView.Adapter<DraftAdapter.DraftHolder>
             nba = itemView.findViewById(R.id.logo_team);
         }
     }
-
 }
